@@ -64,7 +64,7 @@ def grafic_signal(data_frame, titulo, xlabel, ylabel, dir_savefig, canal):
     axes.title.set_size(30)
     axes.xaxis.label.set_size(20)
     axes.yaxis.label.set_size(20)
-    plt.axis((0,350000,-80,70))
+    plt.axis((0,358400,-200,300))
     plt.grid()
     plt.savefig(dir_savefig)
     plt.show()
