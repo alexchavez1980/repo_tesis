@@ -96,7 +96,24 @@ Los papers que describren éste dataset son:
 [*2. EEG Waveform Analysis of P300 ERP with Applications to Brain Computer Interfaces*](https://www.mdpi.com/2076-3425/8/11/199)  
 
 
-  
-  
 
+-----------------------------------------  
+
+Texto por pulir:
+
+El algoritmo sirve para alinear señales.  Es un trabajo super concreto.  Hay un dataset nuestro que tiene una base de EEG a la que se le puede agregar unas señales de P300 con cierto jitter.  Con eso se forma un dataset sintético adonde vos tenés control de donde metes la señal específica de P300.  Con eso podés agregarle un jitter controlado y luego la idea es que implementes y uses el algoritmo de Juliana para corregir el jitter, alinear bien las señales.   Al hacer eso, y ejecutar todo el código que genera la matriz de letras nuevamente, deberías verificar que te da un resultado mejor.
+
+
+Bibliografía extra:  
+
+[*Paper en Discussion (cuando habla de la estabilidad):*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)  
+[*Implementación de la misma metodología para estudiar los diferentes métodos:*] https://www.mdpi.com/2076-3425/8/11/199)  
+El trabajo final integrador es una extensión de este trabajo.  
+  
+[*Dataset real, donde todas las pruebas realizadas se podrán probar:*](http://bnci-horizon-2020.eu/database/data-sets) el 008-2014.  
+  
+[*1. Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)    
+  
+  
+  
 Alexander Chavez | [LinkedIn](https://www.linkedin.com/in/alexchavez1980/)  
