@@ -80,16 +80,15 @@ Fuente -> [P300 dataset of 8 healthy subjects](https://www.kaggle.com/datasets/r
   
 Este dataset contiene toda la información de un EEG completo.
 
-![](./a_images/01 - p300subject25.jpg)  
-![](./a_images/ERPTemplate01.jpg)  
+![](./a_images/01p300subject25.jpg)
   
 La primera obtención no nos da una visual clara, pero en él se encuentran los 8 canales que corresponden a cada electrodo instalado en la corteza cerebral. 
 
 A manera informativa, seleccioné de manera aleatoria los canales 3, 4 y 6, para conocer un poco mas de cerca las componentes.  
   
-![](./a_images/01 - p300subject25_Ch3.jpg)  
-![](./a_images/01 - p300subject25_Ch4.jpg)  
-![](./a_images/01 - p300subject25_Ch6.jpg)  
+![](./a_images/01p300subject25_Ch3.jpg)  
+![](./a_images/01p300subject25_Ch4.jpg)  
+![](./a_images/01p300subject25_Ch6.jpg)  
   
 Los papers que describren éste dataset son:  
   
