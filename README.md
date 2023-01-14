@@ -73,8 +73,8 @@ Dado que el ISI es muy bajo, es difícil adquirir buenos rendimientos.
 
 [Descripción mas en detalle del dataset](a_analisis_P300XX.ipynb) 
 
-Fuente -> [Kaggle](https://www.kaggle.com/datasets/rramele/p300samplingdataset?resource=download)
-Éste dataset fue producido por el CiC, Universidad ITBA, Buenos Aires, Argentina.
+Fuente -> [P300 dataset of 8 healthy subjects](https://www.kaggle.com/datasets/rramele/p300samplingdataset?resource=download)  
+Éste dataset fue producido por el CiC, Universidad ITBA, Buenos Aires, Argentina.  
 
 ### 3. El grupo de los *p300-subject-XX.mat*.  
   
