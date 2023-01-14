@@ -32,9 +32,8 @@ En pacientes con capacidad cognitiva disminuida, el P300 es más pequeño y más
   
 Se desconoce el origen intracerebral de la onda P300 y su papel en la cognición no se comprende con claridad. El P300 puede tener múltiples generadores intracerebrales, con el hipocampo y varias áreas de asociación de la neocorteza contribuyendo al potencial registrado en el cuero cabelludo. La onda P300 puede representar la transferencia de información a la conciencia, un proceso que involucra muchas regiones diferentes del cerebro.  
 
-Fuente -> [*The P300 wave of the human event-related potential:*](https://pubmed.ncbi.nlm.nih.gov/1464675/)    
+Fuente -> [*The P300 wave of the human event-related potential*](https://pubmed.ncbi.nlm.nih.gov/1464675/)    
 
------------------------------------------  
 Pendiente agregar:  
 - Una gráfica general de un EEG *con* una P300.  
 - Contar que, para poderla estudiar, hay que desarmarla en varias partes.  
@@ -93,8 +92,8 @@ A manera informativa, seleccioné de manera aleatoria los canales 3, 4 y 6, para
   
 Los papers que describren éste dataset son:  
   
-[*1. Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection:*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)    
-[*2. EEG Waveform Analysis of P300 ERP with Applications to Brain Computer Interfaces:*](https://www.mdpi.com/2076-3425/8/11/199)  
+[*1. Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)    
+[*2. EEG Waveform Analysis of P300 ERP with Applications to Brain Computer Interfaces*](https://www.mdpi.com/2076-3425/8/11/199)  
 
 
   
