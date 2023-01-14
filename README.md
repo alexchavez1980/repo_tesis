@@ -21,7 +21,7 @@ De forma paralela, es necesario explicar qué es una señal P300. La palabra *ev
 ![](./a_images/ERPTemplate01.jpg)
 
     
-[La onda P300](https://pubmed.ncbi.nlm.nih.gov/1464675/) es entonces, una señal en el cerebro con amplitud positiva relacionada con eventos. ¿Y cuáles son ésos eventos que ya están estudiados y verificados?: para éste caso, el más comúnmente provocado bajo el paradigma de "oddball" o "bicho raro":  
+La onda P300 es entonces, una señal en el cerebro con amplitud positiva relacionada con eventos. ¿Y cuáles son ésos eventos que ya están estudiados y verificados?: para éste caso, el más comúnmente provocado bajo el paradigma de "oddball" o "bicho raro":  
   
 El sujeto, en éste caso el paciente, detecta un estímulo "objetivo" ocasional en un tren regular de estímulos estándar.  
 La onda P300 solo ocurre si el sujeto participa activamente en la tarea de detectar los objetivos.  
@@ -31,12 +31,15 @@ Una latencia pico típica cuando un sujeto adulto joven hace una discriminación
 En pacientes con capacidad cognitiva disminuida, el P300 es más pequeño y más tardío que en sujetos normales de la misma edad.  
   
 Se desconoce el origen intracerebral de la onda P300 y su papel en la cognición no se comprende con claridad. El P300 puede tener múltiples generadores intracerebrales, con el hipocampo y varias áreas de asociación de la neocorteza contribuyendo al potencial registrado en el cuero cabelludo. La onda P300 puede representar la transferencia de información a la conciencia, un proceso que involucra muchas regiones diferentes del cerebro.  
-  
+
+Fuente -> [*The P300 wave of the human event-related potential:*](https://pubmed.ncbi.nlm.nih.gov/1464675/)    
+
 -----------------------------------------  
 Pendiente agregar:  
-- una gráfica general de un EEG *con* una P300.  
-- contar que, para poderla estudiar, hay que desarmarla en varias partes.  
-- un párrafo del instrumento, el P300 Speller (info de la Universidad Distrital).  
+- Una gráfica general de un EEG *con* una P300.  
+- Contar que, para poderla estudiar, hay que desarmarla en varias partes.  
+- Un párrafo del instrumento, el P300 Speller (info de la Universidad Distrital).  
+-----------------------------------------  
   
 ## Los datasets.  
 Son tres grupos de datasets: el *ERPTemplate.mat.*, el grupo de los 8 archivos que conforman el *P300-Dataset* y el grupo de los *p300-subject-XX.mat*.  
@@ -84,14 +87,17 @@ La primera obtención no nos da una visual clara, pero en él se encuentran los 
 
 A manera informativa, seleccioné de manera aleatoria los canales 3, 4 y 6, para conocer un poco mas de cerca las componentes.  
   
-![](./a_images/p300subject25_Ch3.jpg)  
-![](./a_images/p300subject25_Ch4.jpg)  
-![](./a_images/p300subject25_Ch6.jpg)  
+![](./a_images/01 - p300subject25_Ch3.jpg)  
+![](./a_images/01 - p300subject25_Ch4.jpg)  
+![](./a_images/01 - p300subject25_Ch6.jpg)  
   
 Los papers que describren éste dataset son:  
+  
 [*1. Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection:*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)    
 [*2. EEG Waveform Analysis of P300 ERP with Applications to Brain Computer Interfaces:*](https://www.mdpi.com/2076-3425/8/11/199)  
 
 
+  
+  
 
 Alexander Chavez | [LinkedIn](https://www.linkedin.com/in/alexchavez1980/)  
