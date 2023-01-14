@@ -6,7 +6,7 @@
 Docente: *Rodrigo Ramele | rramele@itba.edu.ar*  
 Estudiante: *Alexander Chavez | achavezmontano@itba.edu.ar*   
   
-##### *(13/Ene/2023/18h)*  
+##### *Última actualización: 14/Ene/2023/15h*  
 
 *A continuación, el análisis exploratorio de los datos que se usarán en el trabajo final integrador.* 
 *El objetivo es dar al lector un "mapa" amigable donde pueda recorrer la información, entre descriptiva y código, para así tener una idea mas aproximada del trabajo que se está realizando*    
@@ -32,14 +32,11 @@ En pacientes con capacidad cognitiva disminuida, el P300 es más pequeño y más
   
 Se desconoce el origen intracerebral de la onda P300 y su papel en la cognición no se comprende con claridad. El P300 puede tener múltiples generadores intracerebrales, con el hipocampo y varias áreas de asociación de la neocorteza contribuyendo al potencial registrado en el cuero cabelludo. La onda P300 puede representar la transferencia de información a la conciencia, un proceso que involucra muchas regiones diferentes del cerebro.  
   
-Voy a meter una gráfica general.  
-Y voy a contar que, para poderla estudiar, hay que desarmarla en varias partes.  
-Una es el ERP.  
-Otra son los puntos de estímulo.  
-BLA BLA BLA.  
-
-Luego un párrafo del instrumento, el P300 Speller.  
-De esto hay info que ya tengo con la de la Distrital, algunos videos y texto.  
+-----------------------------------------  
+Pendiente agregar:  
+- una gráfica general de un EEG *con* una P300.  
+- contar que, para poderla estudiar, hay que desarmarla en varias partes.  
+- un párrafo del instrumento, el P300 Speller (info de la Universidad Distrital).  
   
 ## Los datasets.  
 Son tres grupos de datasets: el *ERPTemplate.mat.*, el grupo de los 8 archivos que conforman el *P300-Dataset* y el grupo de los *p300-subject-XX.mat*.  
@@ -79,31 +76,22 @@ Fuente -> [Kaggle](https://www.kaggle.com/datasets/rramele/p300samplingdataset?r
 
 ### 3. El grupo de los *p300-subject-XX.mat*.  
   
-  
-  
-  
-  
-  
-  
-Alexander Chavez | [LinkedIn](https://www.linkedin.com/in/alexchavez1980/) 
-  
-  
-  
-  
-  
-  
-  
-  **===========================================**  
-  *De acá en adelante es guia*  
-  **===========================================**  
+Este dataset contiene toda la información de un EEG completo.
 
-Esto es por si el readme es largo
-* [Instalación y puesta en marcha del ambiente](#Pasos-para-instalar)
+![](./a_images/p300subject25.jpg)  
 
-![](./images/ubuntu_console.jpg)
+La primera obtención no nos da una visual clara, pero en él se encuentran los 8 canales que corresponden a cada electrodo instalado en la corteza cerebral. 
+
+A manera informativa, seleccioné de manera aleatoria los canales 3, 4 y 6, para conocer un poco mas de cerca las componentes.  
+  
+![](./a_images/p300subject25_Ch3.jpg)  
+![](./a_images/p300subject25_Ch4.jpg)  
+![](./a_images/p300subject25_Ch6.jpg)  
+  
+Los papers que describren éste dataset son:  
+[*1. Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection:*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)    
+[*2. EEG Waveform Analysis of P300 ERP with Applications to Brain Computer Interfaces:*](https://www.mdpi.com/2076-3425/8/11/199)  
 
 
 
-
-  
-  
+Alexander Chavez | [LinkedIn](https://www.linkedin.com/in/alexchavez1980/)  
