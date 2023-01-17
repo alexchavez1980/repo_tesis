@@ -109,10 +109,12 @@ Al hacer eso, y ejecutar todo el código que genera la matriz de letras nuevamen
   
 ## Bibliografía extra.    
   
-[*Paper en Discussion (cuando habla de la estabilidad): Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)  
-[*Implementación de la misma metodología para estudiar los diferentes métodos: EEG Waveform Analysis of P300 ERP with Applications to Brain Computer Interfaces*](https://www.mdpi.com/2076-3425/8/11/199)  
+Paper en Discussion (cuando habla de la estabilidad): [*Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)  
+    
+Implementación de la misma metodología para estudiar los diferentes métodos: [* EEG Waveform Analysis of P300 ERP with Applications to Brain Computer Interfaces*](https://www.mdpi.com/2076-3425/8/11/199)  
 El trabajo final integrador es una extensión de este trabajo.  
   
+
 ### Dataset real, donde todas las pruebas realizadas se podrán probar:
 [*P300 speller with ALS patients (008-2014)*](http://bnci-horizon-2020.eu/database/data-sets) el 008-2014.  
   
