@@ -109,13 +109,15 @@ Al hacer eso, y ejecutar todo el código que genera la matriz de letras nuevamen
   
 ## Bibliografía extra.    
   
-Paper en Discussion (cuando habla de la estabilidad): [*Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)  
+Paper en Discussion (cuando habla de la estabilidad):  
+[*Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)  
     
-Implementación de la misma metodología para estudiar los diferentes métodos: [* EEG Waveform Analysis of P300 ERP with Applications to Brain Computer Interfaces*](https://www.mdpi.com/2076-3425/8/11/199)  
+Implementación de la misma metodología para estudiar los diferentes métodos:  
+[* EEG Waveform Analysis of P300 ERP with Applications to Brain Computer Interfaces*](https://www.mdpi.com/2076-3425/8/11/199)  
 El trabajo final integrador es una extensión de este trabajo.  
   
 
-### Dataset real, donde todas las pruebas realizadas se podrán probar:
+### Dataset real, donde se testeará lo realizado en el trabajo:
 [*P300 speller with ALS patients (008-2014)*](http://bnci-horizon-2020.eu/database/data-sets) el 008-2014.  
   
 [*Summary: This dataset represents a complete record of P300 evoked potentials recorded with BCI2000 using a paradigm originally described by Farwell and Donchin. In these sessions, 8 users with amyotrophic lateral sclerosis (ALS) focused on one out of 36 different characters. The objective in this contest is to predict the correct character in each of the provided character selection epochs.*](https://lampz.tugraz.at/~bci/database/008-2014/description.pdf)
