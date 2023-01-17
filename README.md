@@ -104,16 +104,19 @@ Texto por pulir:
 El algoritmo sirve para alinear señales.  Hay un dataset del ITBA que tiene una base de EEG a la que se le puede agregar unas señales de P300 con cierto jitter.  
 Con eso se forma un dataset sintético donde se podrácontrolar la señal específica de P300.  
 Se podrá agregarle un jitter controlado y luego la idea es implementar y usar el algoritmo de Juliana para corregir el jitter,  alinear bien las señales.  
-Al hacer eso, y ejecutar todo el código que genera la matriz de letras nuevamente, se podrá verificar si se obtiene un resultado mejor.
-
-
-Bibliografía extra:  
-
+Al hacer eso, y ejecutar todo el código que genera la matriz de letras nuevamente, se podrá verificar si se obtiene un resultado mejor.  
+  
+  
+## Bibliografía extra.    
+  
 [*Paper en Discussion (cuando habla de la estabilidad): Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)  
 [*Implementación de la misma metodología para estudiar los diferentes métodos: EEG Waveform Analysis of P300 ERP with Applications to Brain Computer Interfaces*](https://www.mdpi.com/2076-3425/8/11/199)  
 El trabajo final integrador es una extensión de este trabajo.  
   
-[*Dataset real, donde todas las pruebas realizadas se podrán probar: P300 speller with ALS patients (008-2014)*](http://bnci-horizon-2020.eu/database/data-sets) el 008-2014.  
+### Dataset real, donde todas las pruebas realizadas se podrán probar:
+[*P300 speller with ALS patients (008-2014)*](http://bnci-horizon-2020.eu/database/data-sets) el 008-2014.  
+  
+[*Summary: This dataset represents a complete record of P300 evoked potentials recorded with BCI2000 using a paradigm originally described by Farwell and Donchin. In these sessions, 8 users with amyotrophic lateral sclerosis (ALS) focused on one out of 36 different characters. The objective in this contest is to predict the correct character in each of the provided character selection epochs.*](https://lampz.tugraz.at/~bci/database/008-2014/description.pdf)
   
 [*Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)    
   
