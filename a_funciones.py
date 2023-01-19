@@ -47,7 +47,7 @@ def grafic_8cherp(data_frame, titulo, xlabel, ylabel, dir_savefig):
     axes.title.set_size(30)
     axes.xaxis.label.set_size(20)
     axes.yaxis.label.set_size(20)
-    plt.axis((0,250,-8,8))                                              
+    plt.axis((-10,260,-8,8))                                              
     plt.grid()
     plt.savefig(dir_savefig)
     plt.show()
