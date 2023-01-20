@@ -32,8 +32,6 @@ En pacientes con capacidad cognitiva disminuida, el P300 es más pequeño y más
 Se desconoce el origen intracerebral de la onda P300 y su papel en la cognición no se comprende con claridad. El P300 puede tener múltiples generadores intracerebrales, con el hipocampo y varias áreas de asociación de la neocorteza contribuyendo al potencial registrado en el cuero cabelludo. La onda P300 puede representar la transferencia de información a la conciencia, un proceso que involucra muchas regiones diferentes del cerebro.  
 
 Fuente -> [*The P300 wave of the human event-related potential*](https://pubmed.ncbi.nlm.nih.gov/1464675/)    
-  
------------------------------------------  
     
 ## Los datasets.  
 Son tres grupos de datasets: el *ERPTemplate.mat.*, el grupo de los 8 archivos que conforman el *P300-Dataset* y el grupo de los *p300-subject-XX.mat*.  
