@@ -11,7 +11,7 @@ Estudiante: *Alexander Chavez | achavezmontano@itba.edu.ar*
 *A continuación, el análisis exploratorio de los datos que se usarán en el trabajo final integrador.* 
 *El objetivo es dar al lector un "mapa" amigable donde pueda recorrer la información, entre descriptiva y código, para así tener una idea mas aproximada del trabajo que se está realizando*    
 
-## Intro.
+## 1. Intro.
 La esclerosis lateral amiotrófica o ELA, es una enfermedad degenerativa de las neuronas en el cerebro, el tronco cerebral y la médula espinal que controlan el movimiento de los músculos voluntarios. En la ELA, las células nerviosas (neuronas) motoras se desgastan o mueren y ya no pueden enviar mensajes a los músculos. Con el tiempo, esto lleva a debilitamiento muscular, espasmos e incapacidad para mover los brazos, las piernas y el cuerpo. La afección empeora lentamente. Cuando los músculos en la zona torácica dejan de trabajar, se vuelve difícil o imposible respirar.  
   
 En pacientes con ELA de etapas intermedias y avanzadas, es necesario el uso de dispositivos tecnológicos para la comunicación, como el P300 Speller.  
@@ -33,17 +33,17 @@ Se desconoce el origen intracerebral de la onda P300 y su papel en la cognición
 
 Fuente -> [*The P300 wave of the human event-related potential*](https://pubmed.ncbi.nlm.nih.gov/1464675/)    
     
-## Los datasets.  
+## 2. Los datasets.  
 Son tres grupos de datasets: el *ERPTemplate.mat.*, el grupo de los 8 archivos que conforman el *P300-Dataset* y el grupo de los *p300-subject-XX.mat*.  
   
 Cada uno de ellos contiene uno o varios archivos .mat. Por practicidad [se encuentran todos en la carpeta *dataset*](dataset/)  
   
-### 1.El *ERPTemplate.mat*.
+### 2a.El *ERPTemplate.mat*.
 EL *ERPTemplate* contiene la señal que se utilizará para "drogar" el flujo de EEG basal.  
 [Acá podés ir al análisis mas detallado de ésta señal.](a_analisis_ERPTemplate.ipynb)  
   
   
-### 2. El grupo de los 8 archivos que conforman el *P300-Dataset*.  
+### 2b. El grupo de los 8 archivos que conforman el *P300-Dataset*.  
 
 Dataset obtenido de las P300 de ocho **sujetos sanos**.  
 Cabe resaltar que, en pacientes con capacidad cognitiva disminuida,  
@@ -53,8 +53,6 @@ Los archivos son P300SXX.mat.
 
 Este conjunto de datos se produjo utilizando el estándar 6x6 Donchin y Farewell P300 Speller Matrix, con un ISI de 0,125 ms.  
   
-**(ACÁ HAY QUE PASAR LA CITA DEL PAPER DONDE ESTÁ EL ESTÁNDAR)**  
-
 Hay 7 palabras con 5 letras cada una. Hay 10 secuencias de intensificación por letra.  
 El procedimiento original usaba 3 palabras para el entrenamiento y trataba de decodificar las 4 palabras restantes para la prueba. 
 
@@ -69,7 +67,7 @@ Dado que el ISI es muy bajo, es difícil adquirir buenos rendimientos.
 Fuente -> [P300 dataset of 8 healthy subjects](https://www.kaggle.com/datasets/rramele/p300samplingdataset?resource=download)  
 Éste dataset fue producido por el CiC, Universidad ITBA, Buenos Aires, Argentina.  
 
-### 3. El grupo de los *p300-subject-XX.mat*.  
+### 2c. El grupo de los *p300-subject-XX.mat*.  
   
 Este dataset contiene toda la información de un EEG completo.
 
@@ -83,7 +81,7 @@ A manera informativa, seleccioné de manera aleatoria los canales 3, 4 y 6, para
 ![](./a_images/01p300subject25_Ch4.jpg)  
 ![](./a_images/01p300subject25_Ch6.jpg)  
   
-## Manipulación de la señal: "DrugSignal".  
+## 3. Manipulación de la señal: "DrugSignal".  
 Se "inyecta" el potencial evocado a una señal EEG.  
 El objetivo es crear un dataset artificial con el que se testeará el modelo.  
   
@@ -108,7 +106,7 @@ Se podrá agregarle un jitter controlado y luego la idea es implementar y usar e
 Al hacer eso, y ejecutar todo el código que genera la matriz de letras nuevamente, se podrá verificar si se obtiene un resultado mejor.  
   
   
-## Bibliografía extra.    
+## 4. Bibliografía extra.    
   
 Paper en Discussion (cuando habla de la estabilidad):  
 [*Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)  
@@ -118,14 +116,14 @@ Implementación de la misma metodología para estudiar los diferentes métodos:
 El trabajo final integrador es una extensión de este trabajo.  
   
 [*Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)    
+    
   
-### Dataset real, donde se testeará lo realizado en el trabajo:
+----------------------------------------- 
+  
+#### Dataset real, donde se testeará lo realizado en el trabajo:
 *Summary: This dataset represents a complete record of P300 evoked potentials recorded with BCI2000 using a paradigm originally described by Farwell and Donchin. In these sessions, 8 users with amyotrophic lateral sclerosis (ALS) focused on one out of 36 different characters. The objective in this contest is to predict the correct character in each of the provided character selection epochs.* [*Link al  .pdf.*](https://lampz.tugraz.at/~bci/database/008-2014/description.pdf)  
   
 [*P300 speller with ALS patients (008-2014)*](http://bnci-horizon-2020.eu/database/data-sets) el 008-2014.  
 
-  
-  
-  
-  
+    
 Alexander Chavez | [LinkedIn](https://www.linkedin.com/in/alexchavez1980/)  
