@@ -38,7 +38,7 @@ Son tres grupos de datasets: el *ERPTemplate.mat.*, el grupo de los 8 archivos q
   
 Cada uno de ellos contiene uno o varios archivos .mat. Por practicidad [se encuentran todos en la carpeta *dataset*](dataset/)  
   
-### 2a.El *ERPTemplate.mat*.
+### 2a. El *ERPTemplate.mat*.
 EL *ERPTemplate* contiene la señal que se utilizará para "drogar" el flujo de EEG basal.  
 [Acá podés ir al análisis mas detallado de ésta señal.](a_analisis_ERPTemplate.ipynb)  
   
@@ -124,6 +124,7 @@ El trabajo final integrador es una extensión de este trabajo.
 *Summary: This dataset represents a complete record of P300 evoked potentials recorded with BCI2000 using a paradigm originally described by Farwell and Donchin. In these sessions, 8 users with amyotrophic lateral sclerosis (ALS) focused on one out of 36 different characters. The objective in this contest is to predict the correct character in each of the provided character selection epochs.* [*Link al  .pdf.*](https://lampz.tugraz.at/~bci/database/008-2014/description.pdf)  
   
 [*P300 speller with ALS patients (008-2014)*](http://bnci-horizon-2020.eu/database/data-sets) el 008-2014.  
-
+  
+----------------------------------------- 
     
 Alexander Chavez | [LinkedIn](https://www.linkedin.com/in/alexchavez1980/)  
