@@ -34,13 +34,6 @@ Se desconoce el origen intracerebral de la onda P300 y su papel en la cognición
 Fuente -> [*The P300 wave of the human event-related potential*](https://pubmed.ncbi.nlm.nih.gov/1464675/)    
   
 -----------------------------------------  
-  
-Pendiente agregar:  
-- Una gráfica general de un EEG *con* una P300.  
-- Contar que, para poderla estudiar, hay que desarmarla en varias partes.  
-- Un párrafo del instrumento, el P300 Speller (info de la Universidad Distrital).  
-  
------------------------------------------  
     
 ## Los datasets.  
 Son tres grupos de datasets: el *ERPTemplate.mat.*, el grupo de los 8 archivos que conforman el *P300-Dataset* y el grupo de los *p300-subject-XX.mat*.  
