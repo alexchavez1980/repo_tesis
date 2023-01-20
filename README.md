@@ -91,6 +91,13 @@ A manera informativa, seleccioné de manera aleatoria los canales 3, 4 y 6, para
 ![](./a_images/01p300subject25_Ch4.jpg)  
 ![](./a_images/01p300subject25_Ch6.jpg)  
   
+## Manipulación de la señal: "DrugSignal".  
+Se "inyecta" el potencial evocado a una señal EEG.  
+El objetivo es crear un dataset artificial con el que se testeará el modelo.  
+  
+[Detalle de las modificaciones en fase y amplitud](a_analisis_funcion_DrugSignal.ipynb)   
+
+
 Los papers que describren éste dataset son:  
   
 [*1. Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)    
