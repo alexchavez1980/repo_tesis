@@ -20,7 +20,6 @@ En pacientes con ELA de etapas intermedias y avanzadas, es necesario el uso de d
 De forma paralela, es necesario explicar qué es una señal P300. La palabra *evocado* es clave: en medicina, refiere a una actividad que puede ser detectada sincrónicamente después de una cantidad específica de tiempo después del inicio de un estímulo. Si accidentalmente acercás un dedo a una vela, no. Si estamos a la espera de que un computador nos dé una señal visual y nos la da, en nuestro cerebro ocurre un evento de éste tipo. En términos médicos *es una actividad inducida*.  
   
 ![](./a_images/ERPTemplate01.jpg)
-
     
 La onda P300 es entonces, una señal en el cerebro con amplitud positiva relacionada con eventos. ¿Y cuáles son ésos eventos que ya están estudiados y verificados?: para éste caso, el más comúnmente provocado bajo el paradigma de "oddball" o "bicho raro":  
   
@@ -34,13 +33,16 @@ En pacientes con capacidad cognitiva disminuida, el P300 es más pequeño y más
 Se desconoce el origen intracerebral de la onda P300 y su papel en la cognición no se comprende con claridad. El P300 puede tener múltiples generadores intracerebrales, con el hipocampo y varias áreas de asociación de la neocorteza contribuyendo al potencial registrado en el cuero cabelludo. La onda P300 puede representar la transferencia de información a la conciencia, un proceso que involucra muchas regiones diferentes del cerebro.  
 
 Fuente -> [*The P300 wave of the human event-related potential*](https://pubmed.ncbi.nlm.nih.gov/1464675/)    
-
+  
+-----------------------------------------  
+  
 Pendiente agregar:  
 - Una gráfica general de un EEG *con* una P300.  
 - Contar que, para poderla estudiar, hay que desarmarla en varias partes.  
 - Un párrafo del instrumento, el P300 Speller (info de la Universidad Distrital).  
------------------------------------------  
   
+-----------------------------------------  
+    
 ## Los datasets.  
 Son tres grupos de datasets: el *ERPTemplate.mat.*, el grupo de los 8 archivos que conforman el *P300-Dataset* y el grupo de los *p300-subject-XX.mat*.  
   
@@ -95,9 +97,10 @@ A manera informativa, seleccioné de manera aleatoria los canales 3, 4 y 6, para
 Se "inyecta" el potencial evocado a una señal EEG.  
 El objetivo es crear un dataset artificial con el que se testeará el modelo.  
   
-[Detalle de las modificaciones en fase y amplitud](a_analisis_funcion_DrugSignal.ipynb)   
-
-
+[Acá podés ver el detalle de las modificaciones en fase y amplitud](a_analisis_funcion_DrugSignal.ipynb)   
+  
+-----------------------------------------  
+  
 Los papers que describren éste dataset son:  
   
 [*1. Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)    
