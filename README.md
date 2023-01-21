@@ -3,8 +3,10 @@
 -----------------------------------------  
 -----------------------------------------  
 ### ÚLTIMOS DETALLES:
+- Embeber a_analisis_signal.ipynb en a_analisis_p300subject25_stim&type.ipynb.
+OJO Si en el README está mencionado.
 - Parrafo "Pulir" abajo.
-- Estandarizar librerías y revisar bien qué imágenes quedan y qué no.
+- Revisar bien qué imágenes quedan y qué no.
 - Llevo 3 .ipynb finalizados. Terminarlos todos.
 - Chequear que todos los links estén bien y que todos los archivos se citen.
 - Depurar funciones innecesarias.
