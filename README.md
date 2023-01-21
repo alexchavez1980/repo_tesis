@@ -1,4 +1,16 @@
-
+-----------------------------------------  
+# ÚLTIMOS DETALLES:
+# - Parrafo "Pulir" abajo.
+# - Estandarizar librerías y revisar bien qué imágenes quedan y qué no.
+# - Llevo 3 .ipynb finalizados. Terminarlos todos.
+# - Chequear que todos los links estén bien y que todos los archivos se citen.
+# - Depurar funciones innecesarias.
+-----------------------------------------  
+  
+  
+  
+  
+  
 # TRABAJO FINAL INTEGRADOR
 ## Análisis exploratorio de datos.
 ### Especialización en ciencia de datos ITBA  
@@ -6,7 +18,7 @@
 Docente: *Rodrigo Ramele | rramele@itba.edu.ar*  
 Estudiante: *Alexander Chavez | achavezmontano@itba.edu.ar*   
   
-##### *Última actualización: 20/Ene/2023/17h*  
+##### *Última actualización: 21/Ene/2023/09h*  
 
 *A continuación, el análisis exploratorio de los datos que se usarán en el trabajo final integrador.* 
 *El objetivo es dar al lector un "mapa" amigable donde pueda recorrer la información, entre descriptiva y código, para así tener una idea mas aproximada del trabajo que se está realizando*    
