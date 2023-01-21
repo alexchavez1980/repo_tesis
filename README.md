@@ -3,11 +3,11 @@
 -----------------------------------------  
 -----------------------------------------  
 ### ÚLTIMOS DETALLES:
-### - Parrafo "Pulir" abajo.
-### - Estandarizar librerías y revisar bien qué imágenes quedan y qué no.
-### - Llevo 3 .ipynb finalizados. Terminarlos todos.
-### - Chequear que todos los links estén bien y que todos los archivos se citen.
-### - Depurar funciones innecesarias.
+- Parrafo "Pulir" abajo.
+- Estandarizar librerías y revisar bien qué imágenes quedan y qué no.
+- Llevo 3 .ipynb finalizados. Terminarlos todos.
+- Chequear que todos los links estén bien y que todos los archivos se citen.
+- Depurar funciones innecesarias.
 -----------------------------------------  
 -----------------------------------------  
 -----------------------------------------  
