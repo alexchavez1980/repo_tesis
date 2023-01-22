@@ -97,7 +97,7 @@ A manera informativa, seleccioné de manera aleatoria los canales 3, 4 y 6, para
 ![](./a_images/01p300subject25_Ch4.jpg)  
 ![](./a_images/01p300subject25_Ch6.jpg)  
   
-El detalle de la estructura del data set y algunas señales 
+El detalle de la estructura del data set y algunas señales  
 que componen la señal ppal lo podés encontrar en el siguiente link: [*a_analisis_p300subject25_stim&type.ipynb*](a_analisis_p300subject25_stim&type.ipynb)  
   
   
