@@ -1,19 +1,4 @@
------------------------------------------  
------------------------------------------  
------------------------------------------  
------------------------------------------  
-### ÚLTIMOS DETALLES:
-- Parrafo "Pulir" abajo.
-- Revisar bien qué imágenes quedan y qué no.
-- Llevo 3 .ipynb finalizados. Terminarlos todos.
-- Chequear que todos los links estén bien y que todos los archivos se citen.
-- Depurar funciones innecesarias.
-- Borrar TODAS LAS IMÁGENES Y VOLVER A CORRER TODO AL FINAL.
------------------------------------------  
------------------------------------------  
------------------------------------------  
------------------------------------------  
-   
+----------------------------------------- 
 # TRABAJO FINAL INTEGRADOR
 ## Análisis exploratorio de datos.
 ### Especialización en ciencia de datos ITBA  
@@ -21,11 +6,12 @@
 Docente: *Rodrigo Ramele | rramele@itba.edu.ar*  
 Estudiante: *Alexander Chavez | achavezmontano@itba.edu.ar*   
   
-##### *Última actualización: 21/Ene/2023/09h*  
-
+##### *Última actualización: 22/Ene/2023/17h*  
+----------------------------------------- 
 *A continuación, el análisis exploratorio de los datos que se usarán en el trabajo final integrador.* 
 *El objetivo es dar al lector un "mapa" amigable donde pueda recorrer la información, entre descriptiva y código, para así tener una idea mas aproximada del trabajo que se está realizando*    
 
+----------------------------------------- 
 ## 1. Intro.
 La esclerosis lateral amiotrófica o ELA, es una enfermedad degenerativa de las neuronas en el cerebro, el tronco cerebral y la médula espinal que controlan el movimiento de los músculos voluntarios. En la ELA, las células nerviosas (neuronas) motoras se desgastan o mueren y ya no pueden enviar mensajes a los músculos. Con el tiempo, esto lleva a debilitamiento muscular, espasmos e incapacidad para mover los brazos, las piernas y el cuerpo. La afección empeora lentamente. Cuando los músculos en la zona torácica dejan de trabajar, se vuelve difícil o imposible respirar.  
   
@@ -112,19 +98,8 @@ Los papers que describren éste dataset son:
   
 [*1. Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection*](https://www.frontiersin.org/articles/10.3389/fncom.2019.00043/full)    
 [*2. EEG Waveform Analysis of P300 ERP with Applications to Brain Computer Interfaces*](https://www.mdpi.com/2076-3425/8/11/199)  
-
-
-
------------------------------------------  
-
-Texto por pulir:
-
-El algoritmo sirve para alinear señales.  Hay un dataset del ITBA que tiene una base de EEG a la que se le puede agregar unas señales de P300 con cierto jitter.  
-Con eso se forma un dataset sintético donde se podrácontrolar la señal específica de P300.  
-Se podrá agregarle un jitter controlado y luego la idea es implementar y usar el algoritmo de Juliana para corregir el jitter,  alinear bien las señales.  
-Al hacer eso, y ejecutar todo el código que genera la matriz de letras nuevamente, se podrá verificar si se obtiene un resultado mejor.  
   
-  
+    
 ## 4. Bibliografía extra.    
   
 Paper en Discussion (cuando habla de la estabilidad):  
