@@ -98,9 +98,6 @@ if (np.unique(t_flash[:,0]).shape[0] != 4200):
         t_type[t_flash[idx,0]] = t_flash[idx,3]
         t_stim[t_flash[idx,0]] = t_flash[idx,2]
 
-
-
-
 # In[1]:
 np.unique(t_flash[:,0]).shape
 assert  np.unique(t_flash[:,0]).shape[0] == 4200, 'Problem with experiment structure.  There aren''t enough events.'
