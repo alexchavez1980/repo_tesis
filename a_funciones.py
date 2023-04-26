@@ -154,3 +154,5 @@ def grafico2(data_frame, titulo, xlabel, ylabel, dir_savefig):          # Funci√
     plt.savefig(dir_savefig)
     plt.show()
     return()   
+
+         # Funci√≥n para graficar los ocho canales. Con 'Sample'
