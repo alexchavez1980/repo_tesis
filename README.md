@@ -43,9 +43,8 @@ EL *ERPTemplate* contiene la señal que se utilizará para "drogar" el flujo de 
 [Acá podés ir al análisis mas detallado de ésta señal.](a_analisis_ERPTemplate.ipynb)  
   
   
-### 2b. El grupo de los 8 archivos que conforman el *P300-Dataset*.  
-
-![](./a_images/DS-P300-Dataset-Kaggle.jpg)
+![](./a_images/DS-P300-Dataset-Kaggle.jpg)  
+### 2b. *P300-Dataset*.  
 
 Dataset obtenido de las P300 de ocho **sujetos sanos**.  
 Cabe resaltar que, en pacientes con capacidad cognitiva disminuida,  
