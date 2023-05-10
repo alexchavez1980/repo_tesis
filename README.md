@@ -46,6 +46,8 @@ EL *ERPTemplate* contiene la señal que se utilizará para "drogar" el flujo de 
   
 ### 2b. El grupo de los 8 archivos que conforman el *P300-Dataset*.  
 
+![](./a_images/DS-P300-Dataset-Kaggle.jpg)
+
 Dataset obtenido de las P300 de ocho **sujetos sanos**.  
 Cabe resaltar que, en pacientes con capacidad cognitiva disminuida,  
 el P300 es más pequeño y más tardío que en sujetos normales de la misma edad.  
