@@ -35,6 +35,27 @@ def grafic_8ch(data_frame, titulo, xlabel, ylabel, dir_savefig):
     plt.show()
     return()    
 
+# Función para graficar los ocho canales de un .mat DISTINTO al ERP.
+def grafic_8ch_test(data_frame, titulo, xlabel, ylabel):     
+    plt.figure(figsize=(30,8))                           
+    axes = plt.gca()
+    for i in range(0,7):
+        plt.plot(data_frame['sample'], data_frame[i], color[i])
+    axes.set_title(titulo), axes.title.set_size(30)
+    axes.set_xlabel(xlabel), axes.set_ylabel(ylabel)
+    axes.xaxis.label.set_size(20), axes.yaxis.label.set_size(20)
+    #plt.axis((0,50000,-180,180))
+    #plt.xlim([228000,229000]) 
+    plt.xlim([10000,20000]) 
+    plt.ylim([-180,180])
+    plt.grid(), plt.show()
+    return()    
+
+
+
+
+
+
 # Función para graficar UN canal del p300-subject-25.mat, que a su vez se le extrae el p300subject25['data'][0][0][0].
 def grafic_signal(data_frame, titulo, xlabel, ylabel, dir_savefig, canal):          
     plt.figure(figsize=(30,8))                                          
