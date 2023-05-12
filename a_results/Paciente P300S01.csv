@@ -1,0 +1,13 @@
+Paciente P300S01,
+Eventos coincidentes encontrados (sin tmin & tmax), 3994
+IDs de los eventos, 2
+Eventos coincidentes encontrados (con tmin:0 & tmax:0.8), 4040
+IDs de los eventos, 12
+getlabels Nohits 1 -> epochs, 3333
+getlabels Nohits 1 -> Channels, 10
+getlabels Nohits 1 -> Time, 201
+getlabels Nohits 1 -> labels (longitud), 3333
+getlabels Hits 1 -> epochs, 671
+getlabels Hits 1 -> Channels, 10
+getlabels Hits 1 -> Time, 201
+getlabels Hits 1 -> labels (longitud), 671
