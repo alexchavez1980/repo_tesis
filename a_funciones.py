@@ -46,7 +46,7 @@ def grafic_8ch_test(data_frame, titulo, xlabel, ylabel):
     axes.xaxis.label.set_size(20), axes.yaxis.label.set_size(20)
     #plt.axis((0,50000,-180,180))
     #plt.xlim([228000,229000]) 
-    plt.xlim([10000,20000]) 
+    plt.xlim([11000,13000]) 
     plt.ylim([-180,180])
     plt.grid(), plt.show()
     return()    
