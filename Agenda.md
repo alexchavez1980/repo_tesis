@@ -1,5 +1,5 @@
 ----------------------------------------- 
-##### *Última actualización: 25/02/2023 18h*  
+##### *Última actualización: 20/Mayo/2023 18h*  
 ----------------------------------------- 
 ## *Cosas pendientes por organizar y mejorar* 
 ----------------------------------------- 
@@ -9,8 +9,13 @@ Documentar cada cosa nueva que aparezca. OJO. Como las novedades de los datasets
 Reacomodarlo y resumirlo.  
 Si se puede, agregar una imagen en la bibliografía del excel que está en a_documents. Puede ser una open.xls de python.
   
-- a_DrugSignal.ipynb debe quedar UNO solo y lo mas .py posible.
-Las líneas de markdown deben ser concretas.  
+- Archivo definitivo: a_Lag&DrugSignal_vX.ipynb.  
+Las líneas de markdown deben ser lo mas descriptivas posibles.  
+Los comentarios deben ser concretos.  
+La v2 está funcionando bien: Seguir probando desfases hasta encontrar algo.
+La v3 debe hacer lo mismo que la v2 pero con .txt en vez de .csv:  
+    si esto funciona, queda así.  
+    sino ahorro espacio, trabajar todo en variables, en RAM, nada en disco.  
   
 - Correr y emprolijar todo lo hecho, junto con los .csv.
 Fijarte los resultados de texto del mne ahora que los entendés.  
