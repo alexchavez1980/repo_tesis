@@ -5,7 +5,8 @@
 ----------------------------------------- 
   
   
-- ¿CÓMO ELIMINAR DEL PROMPT LA SALIDA DE LAS FUNCIONES DE LA LIBRERÍA MNE?
+- ¿CÓMO ELIMINAR DEL PROMPT LA SALIDA DE LAS FUNCIONES DE LA LIBRERÍA MNE?  
+- CAMBIAR LOS NOMBRES DE LAS IMPRESIONES A ALGO MAS CORTO.
 
 - El readme será para descripción general y conceptual.  Lo técnico irá en los ipynb.  
 Quedaría como un mini .ppt. Casi que para copiar y pegar en un .ppt.
@@ -20,6 +21,8 @@ La v2 está funcionando bien: Seguir probando desfases hasta encontrar algo.
 La v3 debe hacer lo mismo que la v2 pero con .txt en vez de .csv:  
     si esto funciona, queda así.  
     sino ahorro espacio, trabajar todo en variables, en RAM, nada en disco.  
+La v4 debe incluir UN SEGUNDO CICLO PPAL donde ya incluya los modelos de ML.  
+    Hacerlo separado hasta el final. Todo junto irá en un .py. Por ahora separado.
   
 - Correr y emprolijar todo lo hecho, junto con los .csv.
 Fijarte los resultados de texto del mne ahora que los entendés.  
