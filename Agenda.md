@@ -1,8 +1,12 @@
 ----------------------------------------- 
-##### *Última actualización: 20/Mayo/2023 18h*  
+##### *Última actualización: 20/Mayo/2023 9h*  
 ----------------------------------------- 
 ## *Cosas pendientes por organizar y mejorar* 
 ----------------------------------------- 
+  
+  
+- ¿CÓMO ELIMINAR DEL PROMPT LA SALIDA DE LAS FUNCIONES DE LA LIBRERÍA MNE?
+
 - El readme será para descripción general y conceptual.  Lo técnico irá en los ipynb.  
 Quedaría como un mini .ppt. Casi que para copiar y pegar en un .ppt.
 Documentar cada cosa nueva que aparezca. OJO. Como las novedades de los datasets.
