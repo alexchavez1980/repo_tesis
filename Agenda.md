@@ -5,8 +5,8 @@
 ----------------------------------------- 
   
   
-- ¿CÓMO ELIMINAR DEL PROMPT LA SALIDA DE LAS FUNCIONES DE LA LIBRERÍA MNE?  
-- CAMBIAR LOS NOMBRES DE LAS IMPRESIONES A ALGO MAS CORTO.
+- No es urgente: ¿CÓMO ELIMINAR DEL PROMPT LA SALIDA DE LAS FUNCIONES DE LA LIBRERÍA MNE?  
+- No es urgente: CAMBIAR LOS NOMBRES DE LAS IMPRESIONES A ALGO MAS CORTO.
 
 - El readme será para descripción general y conceptual.  Lo técnico irá en los ipynb.  
 Quedaría como un mini .ppt. Casi que para copiar y pegar en un .ppt.
@@ -34,6 +34,9 @@ Cada uno de los .ipynb debe tener una línea de markdown grande con una descripc
 - Depurar a_funciones.py. No es urgente pero debe quedar prolijo.  
   
 - Depurar la carpeta a_images. No es urgente pero debe quedar prolijo.  
+
+- Si tengo tiempo, optimizar todo en un solo ciclo.
+
 
 ----------------------------------------- 
 ## *Preguntas* 
