@@ -1,10 +1,28 @@
 ----------------------------------------- 
-##### *Última actualización: 20/Mayo/2023 9h*  
+##### *Última actualización: 27/Mayo/2023 13h*  
 ----------------------------------------- 
 ## *Cosas pendientes por organizar y mejorar* 
 ----------------------------------------- 
+
+
+El 27/Mayo/2023 13h anduvo a_Lag&DrugSignal_v4.ipynb y con él los modelos de ML:  
   
+1. AVANZAR con todos los parámetros del ML:  
+- Organizarlos en un solo dataset.  
+- Es alternativo imprimir y guardar TODO lo anterior.  
   
+2. Optimizar el algoritmo:  
+- No hay necesidad de guardar cosas en .csv salvo los resultados finales.  
+En el for donde trabajo con lag_flash genero cada EEG alterado, cada signal, y almaceno todo en meta_P300S01[j].  
+En el for siguiente, llamo al path: files_path_LagDrugSignal porque leo .csvs.  
+Es cambiar eso: en vez de leer .csv hay que leer durectamente el meta_P300S01.  
+  
+    
+Todo esto con una sola señal: P300S01.mat  
+Despues veo de hacerlo con las otras.  
+  
+Para luego:  
+    
 - No es urgente: ¿CÓMO ELIMINAR DEL PROMPT LA SALIDA DE LAS FUNCIONES DE LA LIBRERÍA MNE?  
 - No es urgente: CAMBIAR LOS NOMBRES DE LAS IMPRESIONES A ALGO MAS CORTO.
 

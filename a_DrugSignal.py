@@ -32,7 +32,7 @@ def DrugSignal(signal, t_flash):
     '''
     for i in range(0,4200):
         if (t_flash[i,3]==2):
-            signal[t_flash[i,0]-1:t_flash[i,0]+250-1,:] += (erptemplate1*3)
+            signal[t_flash[i,0]-100:t_flash[i,0]+250-100,:] += (erptemplate1*100)
 
     return signal
 
@@ -56,7 +56,7 @@ t_trials = mat['data'][0][0][3]
 # Flash matrix
 t_flash = mat['data'][0][0][4]
 
-# signal = DrugSignal(signal, t_flash)
+signal = DrugSignal(signal, t_flash)
 
 t_stim = mat['data'][0][0][2]
 t_type = mat['data'][0][0][1]
