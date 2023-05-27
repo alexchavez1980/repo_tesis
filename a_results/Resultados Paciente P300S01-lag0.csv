@@ -1,9 +1,0 @@
-, Paciente meta_P300S01-lag0
-Eventos coincidentes encontrados (sin tmin & tmax), 3994
-IDs de los eventos, 2
-Eventos coincidentes encontrados (con tmin:0 & tmax:0.8), 4040
-IDs de los eventos, 12
-getlabels Nohits -> epochs, 3333
-getlabels Nohits -> Time, 201
-getlabels Hits -> epochs, 671
-getlabels Hits -> Time, 201
