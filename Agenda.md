@@ -1,12 +1,15 @@
 ----------------------------------------- 
-##### *Última actualización: 27/Mayo/2023 13h*  
+##### *Última actualización: 30/Mayo/2023 8h*  
 ----------------------------------------- 
 ## *Cosas pendientes por organizar y mejorar* 
 ----------------------------------------- 
 
 
-El 27/Mayo/2023 13h anduvo a_Lag&DrugSignal_v4.ipynb y con él los modelos de ML:  
-  
+El 30/Mayo/2023 8h anduvo a_Lag&DrugSignal_v4.ipynb y con él los modelos de ML:  
+
+El nuevo quilombo es que eeg_data aparece con 201 filas que no se de qué son.  
+Luego de decifrar eso, debo ajustar y encontrar los hit/no hit en la matriz de confusión.
+
 1. AVANZAR con todos los parámetros del ML:  
 - Organizarlos en un solo dataset.  
 - Es alternativo imprimir y guardar TODO lo anterior.  
