@@ -7,3 +7,11 @@ getlabels Nohits -> epochs, 3333
 getlabels Nohits -> Time, 201
 getlabels Hits -> epochs, 671
 getlabels Hits -> Time, 201
+nohit_precision:, 0.8468776732249786
+nohit_recall:, 0.99
+nohit_f1_score:, 0.9128630705394191
+nohit_support:, 1000
+hit_precision:, 0.7142857142857143
+hit_recall:, 0.12254901960784313
+hit_f1_score:, 0.20920502092050208
+hit_support:, 204

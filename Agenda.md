@@ -5,13 +5,12 @@
 ----------------------------------------- 
 
 
-El 30/Mayo/2023 8h anduvo a_Lag&DrugSignal_v4.ipynb y con él los modelos de ML:  
-
-El nuevo quilombo es que eeg_data aparece con 201 filas que no se de qué son.  
-Luego de decifrar eso, debo ajustar y encontrar los hit/no hit en la matriz de confusión.
-
-1. AVANZAR con todos los parámetros del ML:  
-- Organizarlos en un solo dataset.  
+El 31/Mayo/2023 8h anduvo a_Lag&DrugSignal_v4.ipynb.  
+ a_Lag&DrugSignal_v5.ipynb será la versión eficiente:    
+  
+Armar un vector posta de los desfases.  
+Que queden indicados en el csv del consolidado. Que sea algo legible.
+Ya están los parámetros de ML y está todo organizado en un solo dataset.  
 - Es alternativo imprimir y guardar TODO lo anterior.  
   
 2. Optimizar el algoritmo:  
