@@ -1,0 +1,11 @@
+, Paciente meta_P300S01_15
+Muestra, 16
+Coef_erptemplate, 5
+nohit_precision, 0.987987987987988
+nohit_recall, 0.987
+nohit_f1_score, 0.9874937468734368
+nohit_support, 1000
+hit_precision, 0.9365853658536586
+hit_recall, 0.9411764705882353
+hit_f1_score, 0.9388753056234719
+hit_support, 204

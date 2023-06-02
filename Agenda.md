@@ -5,10 +5,15 @@
 ----------------------------------------- 
 
 
-El 31/Mayo/2023 8h anduvo a_Lag&DrugSignal_v4.ipynb.  
- a_Lag&DrugSignal_v5.ipynb será la versión eficiente:    
+El 02/Junio/2023 8h anduvo a_Lag&DrugSignal_v5.ipynb.  
+ a_Lag&DrugSignal_v6.ipynb será la versión eficiente:    
+    
+PULIR LAS GRÁFICAS  
   
-Armar un vector posta de los desfases.  
+Ya tengo dos vectores posta de las amplitudes.  
+Armar dos vectores posta para los desfases.  
+Si optimizo el programa sin grabar archivos, puedo eliminar la lista de los nombres de los .csv.  
+
 Que queden indicados en el csv del consolidado. Que sea algo legible.
 Ya están los parámetros de ML y está todo organizado en un solo dataset.  
 - Es alternativo imprimir y guardar TODO lo anterior.  
