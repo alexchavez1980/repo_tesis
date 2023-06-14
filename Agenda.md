@@ -4,6 +4,7 @@
 
 ## *Preguntas* 
   
+- Disculparme por no ir. No sabía que eran en Parque Patricios  
 - Pacientes para el experimento PASIVO: P300S01,02,03,06. | Pacientes para el experimento ACTIVO: P300S04, 05, 07 y 08.  
 ¿Es correcto? ¿Documento para los casos pasivos y nada mas?
 De acá podemos derivar un análisis mas profundo, ya que si los algoritmos andan bien, deben comportarse igual en todas las señales.
