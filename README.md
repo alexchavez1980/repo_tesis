@@ -1,4 +1,13 @@
 ----------------------------------------- 
+# ÉSTE README DEBE CONTENER:    
+# Abstract  
+# 9. Análisis exploratorio de datos  
+# 10. Testeo del algoritmo  
+# 11. Resultados  
+-----------------------------------------  
+  
+  
+----------------------------------------- 
 # TRABAJO FINAL INTEGRADOR
 ## Análisis exploratorio de datos.
 ### Especialización en ciencia de datos ITBA  
