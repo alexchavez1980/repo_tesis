@@ -1,0 +1,28 @@
+\documentclass[../00_Main.tex]{subfiles}
+\begin{document}
+
+La estructura de este trabajo integrador está pensada en función de los objetivos. Primero se ofrecerá un análisis exploratorio de datos, no solamente de los datos en sí, sino también del contexto del experimento realizado el ITBA mencionado anteriormente. Este análisis exploratorio contendrá los datasets usados en los experimentos: 
+
+\hspace{2cm}\href{http://bnci-horizon-2020.eu/database/data-sets}{- BNCI Horizon 2020: 8. Speller P300 with ALS patients (008-2014)}.
+
+\hspace{2cm}\href{https://www.kaggle.com/datasets/rramele/p300samplingdataset?resource=download}{- ITBA. P300 dataset of 8 healthy subjects}.
+
+En segundo lugar, habrá una descripción de la preparación de los datos para ser modelados, complementado con las herramientas computacionales disponibles: librerías de python especializadas en el manejo de datos y electroencefalografía.
+
+En tercer lugar, se aplicará el modelo con las distintas variaciones en las propiedades de la onda compuesta de manera sintética. Y en cuarto y último lugar, se mostrarán los gráficos de los resultados obtenidos de las modificaciones más representativas en las propiedades de la onda compuesta, acompañados con una propuesta de mejoras en la preconfiguración del algoritmo.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[[scale=1]{02_Images/materiales-metodos.jpg}
+    \caption{Esquema general.}
+    \label{fig:materiales-metodos.jpg}
+\end{figure}
+
+Las herramientas y/o librerías usadas en este proyecto se pueden clasificar en dos; matemáticas y de electroencefalografía, todas concentradas en el lenguaje de programación Python. Los electroencefalogramas que fueron usados son Matlab files: archivos de extensión .mat en versiones con funcionalidades de almacenamiento de arrays de n dimensiones de hasta 100.000.000 elementos por arreglo y 2^{31} bytes por variable.
+
+Dentro de las librerías matemáticas se encuentran \textbf{\textit{NumPy}} para permitir el manejo de arreglos grandes y multidimensionales, \textbf{\textit{SciPy}} con módulos para optimización , álgebra lineal , integración , interpolación , funciones especiales , FFT , procesamiento de señales e imágenes, entre otros, \textbf{\textit{Matplotlib}} y \textbf{\textit{Seaborn}} para visualización de los datos, y \textbf{\textit{Pandas}} para la manipulación y análisis tanto de los archivos usados como fuentes de datos como para los distintos procesos intermedios en el análisis exploratorio. La librería destinada al machine learning es \textbf{\textit{Scikit-learn}}: dispone de algoritmos de clasificación, regresión y agrupamiento , que incluyen support vector machine, random forest, k -means y DBSCAN. Tiene la versatilidad para interactuar con el resto de librerías mencionadas anteriormente.
+
+Por otra parte se usó la librería \textbf{\textit{MNE}}: permite la exploración, visualización y análisis de datos neurofisiológicos humanos: MEG, EEG, sEEG, ECoG, NIRS, entre otros.
+
+\biblio % Needed for referencing to working when compiling individual subfiles - Do not remove
+\end{document}

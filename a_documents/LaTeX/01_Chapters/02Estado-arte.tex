@@ -1,0 +1,24 @@
+\documentclass[../00_Main.tex]{subfiles}
+
+\begin{document}
+Los experimentos descritos en el en el artículo \textit{EEG Waveform Analysis of P300 ERP with Applications to Brain Computer Interfaces} (\cite{EEGAnalysisBCI}) sirvieron como base para este proyecto. Si bien es necesario revisar todo el artículo en mención, damos un alcance y limitaciones de este trabajo específicamente capítulo 5; el estado del arte es entonces, el experimento descrito en el artículo. 
+
+En el capítulo 3 del artículo; \textit{Materiales y Métodos}, específicamente el punto 3.6;  \textit{Protocolo experimental}, dan la información necesaria para enmarcar los detalles del experimento cuyo objetivo central es el de evaluar el rendimiento de los algoritmos que reconocen la forma de onda P300, obtenida después de promediar segmentos de señal.
+
+El rendimiento es evaluado mediante el procesamiento de un conjunto de datos pseudo-reales en dos modalidades, una llamada pasiva y otra activa, en alusión a la información de la que los pacientes disponen al momento del experimento. \textbf{Las pruebas de rendimiento de este trabajo final integrador complementan las realizadas en la modalidad pasiva, al realizar modificaciones en latencia y amplitud del componente P300 de distintas magnitudes}. Los experimentos se realizan mediante la evaluación fuera de línea de la identificación del personaje de una aplicación BCI Speller basada en Visual P300.
+
+El paradigma BCI usado en los experimentos del artículo es el Farwell and Donchin P300 Speller (\cite{Talkinghead}). En él, se usa un dispositivo de traducción de pensamientos donde envía comandos a una computadora en forma de letras seleccionadas, similar a escribir en un teclado virtual. El paradigma y el P300 Speller están descritos en el capítulo 9.2 de este trabajo.
+
+La generación de flujo de EEG, es decir, la recopilación de la señal de los pacientes mencionada en el punto 3.6.1 del artículo, describe su estado de salud, la cantidad de pacientes, edad, de acuerdo a las normativas dictadas por la organización mundial de la salud. Incluso la disposición del paciente con respecto al dispositivo y las ubicaciones de los electrodos junto con la referencia, además de los dispositivos utilizados y la frecuencia de muestreo de la onda establecida en 250Hz.
+Además, el protocolo experimental está compuesto por una cantidad de ensayos específica con el fin de deletrear una cantidad de palabras con letras predefinidas. Tienen secuencias para la matriz de 6 columnas por 6 filas con intervalos y pausas establecidos. 
+
+El preprocesamiento de la señal son las bases para la generación de las ondas que serán el objeto de estudio de este proyecto: se extraen, se filtran para eliminar ruido y también se descartan variaciones que estén por fuera de los parámetros esperados. El experimento dura alrededor de 1400s y el resultado final es una traza EEG con 4200 secciones marcadas donde 3500 de ellos están etiquetados como verdaderos y los 700 restantes como falsos. Esta información, al estar estandarizada, se almacena en formatos preestablecidos que pueden ser usados con la librería de python MNE descrita en el capítulo 8.
+
+En cuanto a la participación de las personas en el experimento, a cuatro de los ocho se les indica que miren pasivamente la pantalla parpadeante sin centrarse en alguna letra en particular. No reciben ninguna información adicional en la pantalla. Ninguno de ellos tiene o tuvo alguna experiencia con un dispositivo BCI.  Se entrega un cuestionario al final del experimento con preguntas sobre cómo se sintió el participante durante el mismo, sin dar más detalles. Los cuatro participantes restantes realizan una tarea de ortografía en la que el monitor de la computadora resalta la letra objetivo, que es la que el sujeto necesita enfocar. A lo largo de la duración de la prueba, la letra objetivo actual se informa en la parte inferior de la pantalla.
+
+La modalidad activa no será tenida en cuenta en este trabajo. 
+
+La modalidad pasiva consiste en que, para la mitad de los pacientes, se realiza un ensamblado de la traza EEG final: se toman plantillas reales de un ERP P300 de un conjunto de datos público y se superponen con el la traza EEG generado en dichos pacientes, los cuales fueron aquellos de los que no estaban informados con detalle del experimento.
+
+\biblio % Needed for referencing to working when compiling individual subfiles - Do not remove
+\end{document}
