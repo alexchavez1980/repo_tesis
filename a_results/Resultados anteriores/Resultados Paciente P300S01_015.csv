@@ -1,0 +1,11 @@
+, P300S01_15
+Muestra, 16
+Coef_erp, 16
+nohit_precision, 0.9949698189134809
+nohit_recall, 0.989
+nohit_f1_score, 0.9919759277833501
+nohit_support, 1000
+hit_precision, 0.9476190476190476
+hit_recall, 0.9754901960784313
+hit_f1_score, 0.961352657004831
+hit_support, 204

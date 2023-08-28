@@ -1,0 +1,11 @@
+, P300S01_8
+Muestra, 9
+Coef_erp, 9
+nohit_precision, 0.9909819639278558
+nohit_recall, 0.989
+nohit_f1_score, 0.98998998998999
+nohit_support, 1000
+hit_precision, 0.9466019417475728
+hit_recall, 0.9558823529411765
+hit_f1_score, 0.951219512195122
+hit_support, 204
