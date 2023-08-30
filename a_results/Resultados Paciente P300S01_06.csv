@@ -1,6 +1,6 @@
 , P300S01_6
 Muestra, 7
-Coef_erp, 2.3333333333333335
+Coef_erp, 7
 nohit_precision, 0.8301415487094088
 nohit_recall, 0.997
 nohit_f1_score, 0.9059518400726942

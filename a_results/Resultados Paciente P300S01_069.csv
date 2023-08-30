@@ -1,0 +1,11 @@
+, P300S01_69
+Muestra, 70
+Coef_erp, 70
+nohit_precision, 0.8304093567251462
+nohit_recall, 0.994
+nohit_f1_score, 0.9048702776513428
+nohit_support, 1000
+hit_precision, 0.14285714285714285
+hit_recall, 0.004901960784313725
+hit_f1_score, 0.00947867298578199
+hit_support, 204

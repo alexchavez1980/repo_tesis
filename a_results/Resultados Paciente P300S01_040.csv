@@ -1,6 +1,6 @@
 , P300S01_40
 Muestra, 41
-Coef_erp, 13.666666666666666
+Coef_erp, 41
 nohit_precision, 0.8302828618968386
 nohit_recall, 0.998
 nohit_f1_score, 0.9064486830154406
