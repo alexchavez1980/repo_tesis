@@ -1,11 +1,6 @@
 , P300S01_48
 Muestra, 49
 Coef_erp, 49
-nohit_precision, 0.8302828618968386
-nohit_recall, 0.998
-nohit_f1_score, 0.9064486830154406
-nohit_support, 1000
-hit_precision, 0.0
-hit_recall, 0.0
-hit_f1_score, 0.0
-hit_support, 204
+accuracy_hits, 0.65
+accuracy_nohits, 0.8647686832740213
+accuracy_prom_hnh, 0.7573843416370107
