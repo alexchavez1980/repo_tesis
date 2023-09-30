@@ -37,7 +37,8 @@ def DrugSignal(signal, t_flash):
     return signal
 
 # Now load the basal EEG stream
-mat = scipy.io.loadmat('./dataset/p300-subject-25.mat')
+mat = scipy.io.loadmat('./dataset/itba/P300S01.mat')
+# mat = scipy.io.loadmat('./dataset/p300-subject-25.mat')
 #mat = scipy.io.loadmat('./dataset/p300-subject-26.mat')
 #mat = scipy.io.loadmat('/Users/rramele/./GoogleDrive/Data/P300/p300-subject-21.mat')
 #mat = scipy.io.loadmat('/Users/rramele/./GoogleDrive/Data/P300/p300-subject-06.mat')
@@ -424,3 +425,4 @@ cm = confusion_matrix(classlabels[test], clf.predict(X[test]) )
 print (cm)
 cm_normalized = cm.astype(float) / cm.sum(axis=1)[:, np.newaxis]
 acc=(cm[0,0]+cm[1,1])*1.0/(np.sum(cm))
+print("cm:", cm)
