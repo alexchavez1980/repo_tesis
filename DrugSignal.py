@@ -14,6 +14,7 @@ routput = mat['routput']
 erptemplate1 = routput[0][7][0][1][0][0][0][7] 
 erptemplate2 = routput[0][7][0][1][0][0][0][0] 
 
+# erptemplate1 = np.load('./dataset/array_DrugAmpERPtemplate.npy')
 # The original ERPTemplate dataset has a sampling frequency of 256 so I need to perform a small downsampling to 250 Hz
 erptemplate1 = np.delete( erptemplate1, range(0,256,43),0)
 erptemplate2 = np.delete( erptemplate2, range(0,256,43),0)
@@ -32,13 +33,13 @@ def DrugSignal(signal, t_flash):
     '''
     for i in range(0,4200):
         if (t_flash[i,3]==2):
-            signal[t_flash[i,0]-1:t_flash[i,0]+250-1,:] += (erptemplate1*3)
+            signal[t_flash[i,0]-1:t_flash[i,0]+250-1,:] += (erptemplate1*10)
 
     return signal
 
 # Now load the basal EEG stream
-mat = scipy.io.loadmat('./dataset/itba/P300S01.mat')
-# mat = scipy.io.loadmat('./dataset/p300-subject-25.mat')
+# mat = scipy.io.loadmat('./dataset/itba/P300S01.mat')
+mat = scipy.io.loadmat('./dataset/p300-subject-25.mat')
 #mat = scipy.io.loadmat('./dataset/p300-subject-26.mat')
 #mat = scipy.io.loadmat('/Users/rramele/./GoogleDrive/Data/P300/p300-subject-21.mat')
 #mat = scipy.io.loadmat('/Users/rramele/./GoogleDrive/Data/P300/p300-subject-06.mat')
@@ -246,10 +247,13 @@ for trial in range(0,35):
     a[:,0] = stims[0+120*trial:0+120*trial+120]
     a[:,1] = labels[0+120*trial:0+120*trial+120]
 
-    b=np.zeros((12,1))
-
+    # b=np.zeros((12,1))
+    b=np.zeros((12,2))
+    
     for i in range(1,13):
         b[i-1] = np.unique(a[a[:,0]==i,1])
+
+    b = b[:,1]
 
     for i in range(0,6):
         if (b[i]==2):
@@ -407,14 +411,14 @@ for i in range(15,35):
 
 print()
 
-
+'''
 # %%
 for i in range(0,12):
     plt.figure(figsize=(9, 3))
     plt.plot(eeg_data[i])
     plt.show()
 # %%
-
+'''
 # Classification report
 target_names = ['nohit', 'hit']
 
@@ -425,4 +429,8 @@ cm = confusion_matrix(classlabels[test], clf.predict(X[test]) )
 print (cm)
 cm_normalized = cm.astype(float) / cm.sum(axis=1)[:, np.newaxis]
 acc=(cm[0,0]+cm[1,1])*1.0/(np.sum(cm))
-print("cm:", cm)
+# print("cm:", cm)
+
+print("-----------------------------------------")  
+print(f'accuracy de letras predichas: ', acc)
+print("-----------------------------------------")  
